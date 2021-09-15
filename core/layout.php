@@ -46,13 +46,13 @@ function active($name){
       <div class="container">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">ahenrikson0582</a>
+            <a class="navbar-brand" href="#">Abby Henrikson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <!-- <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> -->
+               
                 <li class="nav-item">
                   <a class="nav-link <?php echo active('/'); ?>" href="http://localhost/example.com/public/index.php">Home</a>
                 </li>
@@ -82,14 +82,13 @@ function active($name){
       </nav>
       <!-- Start Content Card -->
       <div class="card text-center">
-      <div class="card-header">
-        Featured
+      <div>
+       
       </div>
       <div class="card-body">
         <p class="card-text"><?php echo $content; ?></p>
       </div>
-      <div class="card-footer text-muted">
-        Created September 2021
+        
       </div>
           <!-- Footer Links -->
 
