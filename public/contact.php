@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="./dist/css/main.min.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+       <title>ahenrikson0582 Welcome</title>
+    </head>
+    <header>
+      <!-- Image and text -->
+      <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #1f8597;">
+        <a id="toggleMenu"><img src="images/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top" alt=""><a class="navbar-brand" href="index.html">Abby Henrikson</a>
+        <!-- <a class="navbar-brand" href="#"></a> -->
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>   
+  </header>
+  <body style="background-color:#a7a49144">
+    <div class="container">
+      <section class="mb-4">
+        <!--Section heading-->
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+        
+        <!--Section: Contact v.2-->
+<section class="mb-4">
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me.
+    </p>
+
+  <div class="row justify-content-center">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          </form>
+
+          <div class="text-center text-md-left">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+      <!-- Grid column
+      <div class="col-md-3 text-center">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>San Francisco, CA 94126, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>+ 01 234 567 89</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>contact@mdbootstrap.com</p>
+              </li>
+          </ul>
+      </div> -->
+      <!--Grid column-->
+
+  </div>
+
+</section>
+<!--Section: Contact v.2-->
+        <script>
+    
+          var toggleMenu = document.getElementById('toggleMenu');
+          var nav = document.querySelector('nav');
+          toggleMenu.addEventListener(
+            'click',
+            function(){
+              if(nav.style.display=='block'){
+                nav.style.display='none';
+              }else{
+                nav.style.display='block';
+              }
+            }
+          );
+        </script>
+        </body>
+    </html>
