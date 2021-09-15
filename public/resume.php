@@ -8,22 +8,14 @@ $meta['keywords'] = "resume, ahenrikson0582";
 
 $content = <<<EOT
 
-        <body>
-        <div class="jumbotron" style="background-color:#a7a49144">
-  <div class="row">
-    <div class="container">
-      <div class="col-11">
+        
         <h1 class="display-4">Abby Henrikson Resume</h1>
         <p class="lead">Full Stack Web and Hybrid Mobile Applications Developer</p>
         <p>A dedicated and meticulous professional with a focus on customer service and technology. A proactive problem solver and strategic thinker positioned to advance in the information technology industry. Excels in learning new skills, such as coding and cutting-edge software. A passionate and driven contributor who is continuously exploring growth opportunities and new web technologies fulfillment. Full stack web and hybrid mobile applications specializing in full stack JavaScript application
           and architectures. Experienced in all stages of the development life cycle, well versed in numerous
           programming languages.
            
-          <ul>
-              <li>Hands-on experience leading all stages of system development efforts, including requirements in
-                  definition design, architecture, testing and support.</li>
-              <li>Outstanding leadership abilities; able to coordinate and direct all phases of project-based efforts. </li>
-          </ul>
+      
       </p>
       </div>
       <div class="col-md-auto">
