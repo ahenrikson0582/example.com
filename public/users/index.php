@@ -10,7 +10,7 @@ $meta = [];
 $meta['description'] = "Users ahenrikson0582 User List";
 $meta['keywords'] = "users, ahenrikson0582, user list";
 
-$content="<h1>MicroTrains Users</h1>";
+$content="<h1>ahenrikson0582 Users</h1>";
 $stmt = $pdo->query('SELECT * FROM users');
 
 while($row = $stmt->fetch()){
