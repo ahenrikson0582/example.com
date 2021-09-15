@@ -13,9 +13,4 @@ An about me web site.
 Clone this project into a web directory
 ```sh
 cd /var/www
-git clone git@github.com:<YOUR-GITHUB-NAME>/example.com.git
-
-Install composer dependencies
-
-cd /var/www/example.com
-composer install
+git clone git@github.com:ahenrikson0582/example.com.git
