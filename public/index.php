@@ -8,7 +8,7 @@ $meta=[];
 $meta['description'] = "ahenrikson0582";
 $meta['title']="ahenrikson0582";
 
-$content="<h1>MicroTrains Users</h1>";
+$content="<h1>ahenrikson0582 Users</h1>";
 $stmt = $pdo->query('SELECT * FROM users');
 
 while($row = $stmt->fetch()){
