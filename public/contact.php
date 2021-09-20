@@ -3,8 +3,8 @@
 require '../core/processContactForm.php';
 //Build the page metadata
 $meta = [];
-$meta['description'] = "Contact For Web Development MicroTrain2108";
-$meta['keywords'] = "Contact, Web Development, MicroTrain2108";
+$meta['description'] = "Contact For ahenrikson0582";
+$meta['keywords'] = "Contact, ahenrikson0582";
 
 $content = <<<EOT
 <form action="contact.php" method="POST">
