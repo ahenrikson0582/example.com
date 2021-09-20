@@ -91,6 +91,8 @@ $content = <<<EOT
             type="password"
         >
     </div>
+
+   <a href="../public/forgot_password/forgot.php">Forgot Password</a><br />
     <input type="submit" class="btn btn-primary">
 </form>
 EOT;

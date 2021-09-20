@@ -84,4 +84,11 @@ main {
     display: block;
     border-bottom: 1px solid #777; } }
 
+    .error p {
+      color:#FF0000;
+      font-size:20px;
+      font-weight:bold;
+      margin:50px;
+      }
+
 /*# sourceMappingURL=main.css.map */

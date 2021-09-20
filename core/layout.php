@@ -36,16 +36,17 @@ function active($name){
     <!-- <meta name="description" content="Microtrain2101 home page">
     <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master, home page"> -->
     <!-- <link rel="stylesheet" type="text/css" href="../dist/css/main.min.css"> -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">    
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="../site.webmanifest">
+    <!-- <link rel="manifest" href="../site.webmanifest"> -->
   </head>
   <body>
       <!-- Content of webpage -->
       <div class="container">
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Abby Henrikson</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
